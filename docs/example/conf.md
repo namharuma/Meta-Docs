@@ -4,7 +4,7 @@
         # url 里填写自己的订阅,名称不能重复
         proxy-providers:
           provider1:
-            url: ""
+            url: "https://end.hlyun.xyz/api/v1/client/subscribe?token=5b3318fa823a107ab2fd5cd94193e75f"
             type: http
             interval: 86400
             health-check: {enable: true,url: "https://www.gstatic.com/generate_204", interval: 300}
